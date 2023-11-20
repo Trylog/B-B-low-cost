@@ -190,7 +190,7 @@ int main()
             //----------------//
         }
         timeAvg /= (double) b1;
-        out << namesOfTests.at(t).substr(0, temp) <<";" << timeAvg<<";" << minSum<< "; [0 ";
+        out << namesOfTests.at(t).substr(0, temp) <<";" << timeAvg<<";" << minSum<< "; [";
         for (int i = 0; i < matrix.v-1; ++i) {
             out << minSeq[i] << " ";
         }
