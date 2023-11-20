@@ -1,3 +1,4 @@
+///Michal Bernacki-Janson
 #include <iostream>
 #include <fstream>
 #include <vector>
